@@ -1,0 +1,39 @@
+.projects {
+  /* border: 2px solid red; */
+  /* height: 100vh; */
+  /* height: auto; */
+  margin-bottom: 50px;
+}
+.title {
+  font-size: 55px;
+  font-weight: 900;
+  color: black;
+}
+.project1 {
+  /* border: 2px solid green; */
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+
+@media only screen and (max-width: 1200px) {
+  /*Tablets [1001px -> 1200px]*/
+}
+@media only screen and (max-width: 1000px) {
+  /*Big smartphones [601px -> 1000px]*/
+  .projects {
+    height: auto;
+  }
+}
+@media only screen and (max-width: 600px) {
+  /*Big smartphones [426px -> 600px]*/
+  .projects {
+    height: auto;
+  }
+}
+@media only screen and (max-width: 425px) {
+  /*Small smartphones [325px -> 425px]*/
+  .projects {
+    height: auto;
+  }
+}

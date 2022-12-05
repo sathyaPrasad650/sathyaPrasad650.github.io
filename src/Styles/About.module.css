@@ -1,0 +1,129 @@
+.about {
+  /* border: 2px solid blue; */
+  height: 100vh;
+  margin-bottom: 50px;
+}
+.title {
+  /* border: 2px solid red; */
+  font-size: 55px;
+  color: black;
+  margin-bottom: 60px;
+  font-weight: 900;
+}
+.content {
+  /* border: 2px solid green; */
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+}
+.imageDiv {
+  /* border: 2px solid red; */
+  height: 220px;
+  display: flex;
+  justify-content: center;
+  width: 350px;
+  margin-top: 30px;
+}
+.imageDiv img {
+  /* border: 2px solid blue; */
+  height: auto;
+  border-radius: 150px;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
+}
+.intro {
+  /* border: 2px solid blue; */
+  visibility: visible;
+  /* width: 0px; */
+  width: 600px;
+  line-height: 45px;
+  font-size: 18px;
+  padding: 25px;
+  color: black;
+}
+@media only screen and (max-width: 1200px) {
+  /*Tablets [1001px -> 1200px]*/
+  /* .imageDiv {
+    margin-top: 60px;
+  } */
+}
+@media only screen and (max-width: 1000px) {
+  /*Big smartphones [601px -> 1000px]*/
+  .title {
+    margin-bottom: 0px;
+  }
+  .content {
+    /* border: 2px solid yellow; */
+    display: flex;
+    flex-direction: column;
+    width: 90vw;
+    margin: auto;
+  }
+  .imageDiv {
+    /* border: 2px solid blue; */
+    margin-top: 0px;
+    width: 90vw;
+    height: 200px;
+  }
+  .imageDiv img {
+    /* background-color: black; */
+    height: auto;
+    width: 190px;
+  }
+  .intro {
+    /* border: 2px solid red; */
+    visibility: visible;
+    width: 90vw;
+    height: 270px;
+    line-height: 30px;
+    font-size: 17px;
+  }
+  .intro p {
+    padding-bottom: 12px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  /*Big smartphones [426px -> 600px]*/
+  .about {
+    /* border: 2px solid green; */
+    height: 650px;
+  }
+}
+@media only screen and (max-width: 425px) {
+  /*Small smartphones [325px -> 425px]*/
+  .about {
+    height: auto;
+  }
+  .title {
+    margin-bottom: 0px;
+  }
+  .content {
+    display: flex;
+    align-items: baseline;
+    flex-direction: column;
+    width: 90vw;
+  }
+  .imageDiv {
+    /* border: 2px solid blue; */
+    width: 90vw;
+    height: 200px;
+    margin-top: 0px;
+    /* margin-top: 20px; */
+    /* margin-bottom: 20px; */
+  }
+  .imageDiv img {
+    /* background-color: black; */
+    height: auto;
+    width: 190px;
+  }
+  .intro {
+    /* border: 2px solid red; */
+    visibility: visible;
+    width: 90vw;
+    height: auto;
+    line-height: 28px;
+    font-size: 17px;
+  }
+  .intro p {
+    padding-bottom: 12px;
+  }
+}

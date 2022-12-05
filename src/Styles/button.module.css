@@ -1,0 +1,12 @@
+.click {
+  background-color: #0071e3;
+}
+
+.click:hover {
+  background: #1c8cfc;
+}
+
+.name {
+  /* font-family: "Permanent Marker", cursive; */
+  font-weight: 900;
+}

@@ -1,0 +1,32 @@
+/* .iconTemp {
+  border: 2px solid red;
+} */
+.iconTemp div {
+  background-color: white;
+  height: 100px;
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+  margin: 12px;
+  border-radius: 12px;
+}
+
+@media only screen and (max-width: 1200px) {
+  /*Tablets [1001px -> 1200px]*/
+}
+@media only screen and (max-width: 1000px) {
+  /*Big smartphones [601px -> 1000px]*/
+}
+@media only screen and (max-width: 600px) {
+  /*Big smartphones [426px -> 600px]*/
+}
+@media only screen and (max-width: 425px) {
+  /*Small smartphones [325px -> 425px]*/
+  .iconTemp div {
+    height: 70px;
+    width: 70px;
+    margin: 10px;
+  }
+}

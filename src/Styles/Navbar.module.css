@@ -1,0 +1,141 @@
+.navbar {
+  /* border: 5px solid red; */
+  border-bottom: 0.5px solid gray;
+  position: fixed;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(7px);
+  height: 50px;
+  display: flex;
+  align-items: center;
+  z-index: 10;
+}
+.navbar > div {
+  /* border: 5px solid green; */
+  display: flex;
+  width: 1200px;
+  margin: auto;
+  justify-content: space-between;
+}
+.navbarTitleDiv {
+  /* border: 2px solid red; */
+  padding-left: 10px;
+}
+.navbarTitleDiv > p {
+  /* border: 2px solid red; */
+  font-size: 30px;
+  font-weight: 900;
+  color: black;
+}
+.navbarButtonDiv {
+  /* border: 2px solid red; */
+  display: flex;
+  width: 600px;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbarDropDown {
+  color: black;
+  display: flex;
+  align-items: center;
+  padding-right: 10px;
+  visibility: hidden;
+}
+.navbarDropDownMenuList {
+  /* background-color: red; */
+  width: 400px;
+  /* height: 200px; */
+  height: auto;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: left; */
+  text-align: right;
+  padding: 10px;
+}
+.navbarDropDownMenuList div {
+  /* border: 2px solid red; */
+  padding-right: 40px;
+  padding-bottom: 2px;
+  height: 36px;
+  margin-bottom: 3px;
+  border-bottom: 0.2px solid rgb(198, 198, 198);
+}
+
+@media only screen and (max-width: 1200px) {
+  /*Tablets [1000px -> 1200px]*/
+  .navbar {
+    justify-content: left;
+  }
+  .navbarTitleDiv {
+    /* border: 2px solid green; */
+    width: 400px;
+  }
+  .navbarTitle {
+    text-align: left;
+  }
+  .navbarTitle > p {
+    /* border: 2px solid red; */
+    font-size: 30px;
+    font-weight: 900;
+    color: black;
+  }
+  /* .navbarButtonDiv {
+    visibility: hidden;
+  } */
+  .navbarDropDown {
+    width: 10px;
+    visibility: visible;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .navbarButtonDiv {
+    visibility: hidden;
+  }
+  .navbarDropDown {
+    /* background-color: red; */
+    visibility: visible;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  /*Big smartphones [426px -> 600px]*/
+  .navbarTitleDiv {
+    /* border: 2px solid red; */
+    justify-content: left;
+    text-align: left;
+    width: 80%;
+  }
+  .navbarButtonDiv {
+    width: 0px;
+    visibility: hidden;
+  }
+  .navbarDropDown {
+    width: 50px;
+    visibility: visible;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  /*Small smartphones [325px -> 425px]*/
+  .navbarTitleDiv {
+    /* border: 2px solid green; */
+    display: flex;
+    justify-content: left;
+    text-align: left;
+    width: 80%;
+    height: 50px;
+    align-items: center;
+  }
+  .navbarTitleDiv p {
+    font-size: 25px;
+  }
+  .navbarButtonDiv {
+    width: 0px;
+    visibility: hidden;
+  }
+  .navbarDropDown {
+    visibility: visible;
+  }
+}

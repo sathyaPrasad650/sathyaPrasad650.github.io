@@ -1,0 +1,71 @@
+/* .scrollbar-hidden::-webkit-scrollbar {
+  display: none;
+} */
+.resume {
+  padding-top: 50px;
+}
+.downloadBtnDiv {
+  /* border: 2px solid red; */
+  position: fixed;
+  top: 60px;
+  right: 50px;
+  z-index: 10;
+}
+.downloadBtn {
+  height: 35px;
+  border-radius: 50px;
+  padding-right: 15px;
+  padding-left: 15px;
+  color: white;
+  width: 300px;
+  font-size: 20px;
+  background-color: #0071e3;
+}
+.downloadBtn:hover {
+  background: #0c86ff;
+}
+
+.content {
+  /* background-color: red; */
+  display: flex;
+  justify-content: center;
+}
+.pdf {
+  /* border: 2px solid red; */
+  width: 90vw;
+  height: auto;
+}
+@media only screen and (max-width: 1200px) {
+  /*Tablets [1001px -> 1200px]*/
+}
+@media only screen and (max-width: 1000px) {
+  /*Big smartphones [601px -> 1000px]*/
+}
+@media only screen and (max-width: 600px) {
+  /*Big smartphones [426px -> 600px]*/
+  .content {
+    margin-top: 50px;
+  }
+}
+@media only screen and (max-width: 425px) {
+  /*Small smartphones [325px -> 425px]*/
+  .downloadBtnDiv {
+    border: 2px solid red;
+    right: 10px;
+  }
+  .content {
+    border: 2px solid blue;
+    margin-top: 50px;
+    /* width: 90vw; */
+  }
+  .pdf {
+    border: 2px solid red;
+    /* width: 80%; */
+    /* width: ; */
+    /* height: 500px; */
+  }
+  .viewer {
+    border: 2px solid yellow;
+    /* widht: ; */
+  }
+}

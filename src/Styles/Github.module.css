@@ -1,0 +1,158 @@
+.github {
+  /* border: 2px solid purple; */
+  margin-bottom: 50px;
+}
+.streakStatsContainer {
+  /* border: 2px solid black; */
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: center;
+  margin-bottom: 18px;
+}
+.streak {
+  /* border: 2px solid red; */
+  display: flex;
+  justify-content: center;
+  margin-right: 10px;
+}
+.stats {
+  /* border: 2px solid yellow; */
+  display: flex;
+  justify-content: center;
+  margin-left: 10px;
+}
+.lang {
+  /* border: 2px solid blue; */
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+.lang img {
+  /* border: 2px solid red; */
+  height: 200px;
+  /* margin-top: 20px; */
+}
+.graph {
+  /* border: 2px solid red; */
+  display: flex;
+  justify-content: center;
+  /* height: 360px; */
+  width: 90%;
+  margin: auto;
+}
+.graph img {
+  margin-top: 20px;
+  /* border: 2px solid black; */
+  /* height: 300px; */
+  border-radius: 8px;
+}
+.calendar {
+  /* border: 2px solid red; */
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  flex-direction: column;
+  background-color: #0071e3;
+  border-radius: 8px;
+  color: white;
+  margin: auto;
+  margin-top: 20px;
+  width: 90%;
+}
+.calendar p {
+  padding-top: 5px;
+  margin-bottom: 8px;
+}
+.calendar div {
+  margin: auto;
+}
+.calendar GitHubCalendar {
+  /* border: 2px solid blue; */
+  margin: auto;
+}
+
+@media only screen and (max-width: 1200px) {
+  /*Tablets [1001px -> 1200px]*/
+}
+@media only screen and (max-width: 1000px) {
+  /*Big smartphones [601px -> 1000px]*/
+  .streakStatsContainer {
+    flex-direction: column;
+    /* justify-content: center; */
+    /* margin: auto; */
+    /* width: 100%; */
+  }
+  .streak {
+    margin-bottom: 20px;
+    /* width: 371px; */
+    margin-right: 0px;
+  }
+  .stats {
+    margin-left: 0px;
+  }
+  .lang {
+    margin: auto;
+    margin-top: 20px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  /*Big smartphones [426px -> 600px]*/
+  .streakStatsContainer {
+    flex-direction: column;
+    /* justify-content: center; */
+    /* margin: auto; */
+    /* width: 100%; */
+  }
+  .streak {
+    margin-bottom: 40px;
+    margin-right: 0px;
+    /* width: 371px; */
+  }
+  .stats {
+    margin-left: 0px;
+  }
+  .lang {
+    /* border: 2px solid green; */
+    margin: auto;
+    margin-top: 20px;
+  }
+  .graph {
+    width: 100%;
+  }
+  .calendar {
+    margin-top: 40px;
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 425px) {
+  /*Small smartphones [325px -> 425px]*/
+  .streakStatsContainer {
+    flex-direction: column;
+    /* justify-content: center; */
+    /* margin: auto; */
+    /* width: 100%; */
+  }
+  .streak {
+    margin-bottom: 45px;
+    margin-right: 0px;
+  }
+  .stats {
+    margin-left: 0px;
+  }
+  .lang {
+    width: 100%;
+    /* margin-top: 10px; */
+    margin: auto;
+  }
+  .lang img {
+    flex-wrap: wrap;
+    height: 200px;
+  }
+  .graph {
+    width: 100%;
+  }
+  .calendar {
+    margin-top: 40px;
+    width: 100%;
+  }
+}
