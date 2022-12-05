@@ -65,6 +65,7 @@ const Github = () => {
         </a>
       </div>
 
+      {/* https://www.npmjs.com/package/react-github-calendar */}
       <div className={githubStyle.calendar}>
         <b>
           <p>GitHub Contribution Calendar</p>
