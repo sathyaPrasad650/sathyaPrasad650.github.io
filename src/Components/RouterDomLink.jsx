@@ -5,7 +5,7 @@ import CustomButton from "./CustomButton";
 const RouterDomLink = ({ to, name }) => {
   return (
     <>
-      <Link id="RouterNavLink" to={to}>
+      <Link id="RouterNavLink" target="_blank" to={to}>
         <CustomButton title={name} />
       </Link>
     </>
