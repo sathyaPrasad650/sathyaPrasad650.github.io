@@ -4,7 +4,8 @@ import navbarStyle from "../Styles/Navbar.module.css";
 import { Menu, MenuButton, MenuList, IconButton } from "@chakra-ui/react";
 import { HamburgerIcon } from "@chakra-ui/icons";
 import { Link } from "react-scroll";
-import RouterDomLink from "./RouterDomLink";
+// import RouterDomLink from "./RouterDomLink";
+import resumePDF from "./resumePDF.pdf";
 // import download from "./resumePDF.pdf";
 
 const Navbar = () => {
@@ -54,7 +55,10 @@ const Navbar = () => {
             {/* <RouterDomLink to="/" name="Contact"></RouterDomLink> */}
             <CustomButton title={"Contact"} />
           </Link>
-          <RouterDomLink to="/resume" name="Resume"></RouterDomLink>
+          {/* <RouterDomLink to="/resume" name="Resume"></RouterDomLink> */}
+          <a href={resumePDF} download="Sathya-Prasad-Resume">
+            <CustomButton title={"Resume"} />
+          </a>
         </div>
         <div className={navbarStyle.navbarDropDown}>
           <Menu>
@@ -115,7 +119,10 @@ const Navbar = () => {
                 {/* <RouterDomLink to="/" name="Contact"></RouterDomLink> */}
                 <CustomButton title={"Contact"} />
               </Link>
-              <RouterDomLink to="/resume" name="Resume"></RouterDomLink>
+              {/* <RouterDomLink to="/resume" name="Resume"></RouterDomLink> */}
+              <a href={resumePDF} download="Sathya-Prasad-Resume">
+                <CustomButton title={"Resume"} />
+              </a>
             </MenuList>
           </Menu>
         </div>
