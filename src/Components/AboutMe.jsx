@@ -10,16 +10,17 @@ const AboutMe = () => {
           <img src="./images/profilePicture.png" alt="profilePicture" />
         </div>
         <div className={aboutStyle.intro}>
-          <p>I am a Full Stack Web-Developer</p>
+          <p>I am a Tech Support Engineer</p>
           <p>
-            My field of Interest's are building new Web Technologies and
-            Products
+            Motivated and detail-oriented technology enthusiast seeking a
+            position as a tech support engineer.
           </p>
           <p>
-            I love to work on exciting projects that test what I've learnt, also
-            looking forward to work in a challenging environment which gives me
-            an opportunity to prove myself & provides me with an atmosphere in
-            which I can learn & grow with the company.
+            Possessing a strong passion for problem-solving and a commitment to
+            providing exceptional customer service. Confident in my ability to
+            effectively support customers and resolve complex technical
+            problems. Eager to bring my skills, knowledge, and enthusiasm to an
+            organization that values hard work, innovation and teamwork.
           </p>
         </div>
       </div>

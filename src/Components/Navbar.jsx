@@ -25,7 +25,11 @@ const Navbar = () => {
             duration={500}
           >
             {/* <RouterDomLink to="/" name="Home"></RouterDomLink> */}
-            <CustomButton title={"Home"} />
+            <CustomButton
+              style={{ color: "red" }}
+              className="sss"
+              title={"Home"}
+            />
           </Link>
           <Link to="about" spy={true} smooth={true} offset={-40} duration={500}>
             {/* <RouterDomLink to="/" name="About"></RouterDomLink> */}

@@ -15,7 +15,7 @@
 .imgDiv img {
   /* border: 2px solid black; */
   border-radius: 8px;
-  filter: blur(2px);
+  filter: blur(0.7px);
   opacity: 1;
   /* height: 300px; */
   box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
@@ -126,7 +126,7 @@
     border-radius: 10px;
   }
   .imgDiv img {
-    filter: blur(10px);
+    filter: blur(5px);
   }
   .imgDiv img:hover {
     position: absolute;
@@ -150,7 +150,7 @@
     background: none;
     position: absolute;
     width: 100%;
-    top: 220px;
+    top: 250px;
     right: 0px;
     padding: 20px;
     text-align: right;
@@ -190,7 +190,7 @@
     /* visibility: hidden; */
     width: auto;
     position: absolute;
-    top: 150px;
+    top: 140px;
     right: 24px;
   }
   .titleDiv p {

@@ -56,14 +56,14 @@ const Github = () => {
       {/* Need help in matching the website theme */}
 
       {/* https://github.com/Ashutosh00710/github-readme-activity-graph#available-themes */}
-      <div className={githubStyle.graph}>
+      {/* <div className={githubStyle.graph}>
         <a href="https://github.com/sathyaPrasad650/github-readme-activity-graph">
           <img
             alt="sathyaPrasad650 Activity Graph"
             src="https://activity-graph.herokuapp.com/graph?username=sathyaPrasad650&bg_color=0071E3&color=FFFFFF&line=FFFFFF&point=FFFFFF&area=true&hide_border=true&area_color=ECECEC"
           />
         </a>
-      </div>
+      </div> */}
 
       {/* https://www.npmjs.com/package/react-github-calendar */}
       <div className={githubStyle.calendar}>

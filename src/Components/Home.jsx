@@ -9,8 +9,8 @@ const Home = () => {
         <p>Prasad S</p>
       </div>
       <div className={homeStyle.course}>
-        <p>Full Stack</p>
-        <p>Web-Developer</p>
+        <p>Tech Support</p>
+        <p>Engineer</p>
       </div>
     </div>
   );
