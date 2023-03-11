@@ -7,11 +7,11 @@
   /* border: 2px solid red; */
   font-size: 55px;
   color: black;
-  margin-bottom: 60px;
+  margin-bottom: 10px;
   font-weight: 900;
 }
 .content {
-  /* border: 2px solid green; */
+  /* border: 3px solid green; */
   display: flex;
   justify-content: center;
   /* align-items: center; */
